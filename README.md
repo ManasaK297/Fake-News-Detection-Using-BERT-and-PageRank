@@ -56,24 +56,29 @@ While most fake news detection systems rely solely on text patterns, this projec
 
 ---
 
-## 📄 Paper Status  
 
-📌 **Submitted to [conference/journal name if applicable]** — Awaiting result  
+
+## 📄 Paper Publication
+
+ **Accepted at WorldSUAS 2025**  
+ *World Skill Conference of Universal Data Analytics and Sciences (WorldSUAS 2025)*  
+ *Organized by Symbiosis University of Applied Sciences, Indore*  
+ **Publisher:** IEEE (Camera-ready version under preparation)  
+ Paper ID: 68  
+ Title: *Hybrid Fake News Detection Using BERT and Speaker Credibility Ranking via PageRank*  
 
 ---
 
+##  Project Status
+
+ Project Completed  
+ Research Paper Accepted for Presentation  
+ Camera-ready paper and eCopyright form under preparation  
+
+---
 ## 📬 Contact  
 
-- 📧 **Email:** bhuvaneshwarikb160@gmail.com  
+- 📧 **Email:** manasakb160@gmail.com  
 - 💼 **LinkedIn:** [manasa-k-08b7a9320](https://www.linkedin.com/in/manasa-k-08b7a9320/)
 
 ---
-
-## ✅ Status  
-
-✔️ Completed  
-📝 Research paper submitted (result pending)  
-🚀 Repository will be updated post-publication  
-
----
-
