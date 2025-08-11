@@ -19,7 +19,7 @@ While most fake news detection systems rely solely on text patterns, this projec
 
 - `Fake_News_Detection_Using_BERT_And_PageRank.ipynb` — Full code and model implementation  
 - `DataSet/` — Contains `train.tsv`, `test.tsv`, `valid.tsv`  
-- `Research_Paper.pdf` — Full research paper (paper under review)
+- `Research_Paper.pdf` — Full research paper  (accepted at IEEE WorldSUAS 2025)
 
 ---
 
