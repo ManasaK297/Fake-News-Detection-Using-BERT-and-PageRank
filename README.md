@@ -19,7 +19,7 @@ While most fake news detection systems rely solely on text patterns, this projec
 
 - `Fake_News_Detection_Using_BERT_And_PageRank.ipynb` — Full code and model implementation  
 - `DataSet/` — Contains `train.tsv`, `test.tsv`, `valid.tsv`  
-- `Research_Paper.pdf` — Full research paper  (accepted at IEEE WorldSUAS 2025)
+
 
 ---
 
@@ -54,28 +54,31 @@ While most fake news detection systems rely solely on text patterns, this projec
 - F1-Score: 0.74  
 - PageRank improved credibility assessment and boosted classification accuracy  
 
----
 
-
-
-## 📄 Paper Publication
-
- **Accepted at WorldSUAS 2025**  
- *World Skill Conference of Universal Data Analytics and Sciences (WorldSUAS 2025)*  
- *Organized by Symbiosis University of Applied Sciences, Indore*  
- **Publisher:** IEEE (Camera-ready version under preparation)  
- Paper ID: 68  
- Title: *Hybrid Fake News Detection Using BERT and Speaker Credibility Ranking via PageRank*  
 
 ---
 
-##  Project Status
+## Paper Publication
 
- Project Completed  
- Research Paper Accepted for Presentation  
- Camera-ready paper and eCopyright form under preparation  
+**Published in IEEE Xplore**  
+*Hybrid Fake News Detection Using BERT and Speaker Credibility Ranking via PageRank*  
+**Presented at:** World Skill Conference of Universal Data Analytics and Sciences (WorldSUAS 2025)  
+**Organized by:** Symbiosis University of Applied Sciences, Indore  
+**Paper ID:** 68  
+**Publisher:** IEEE  
+**Publication Year:** 2025  
+
+[🔗 Read the Paper on IEEE Xplore](https://ieeexplore.ieee.org/document/YOUR_DOI_LINK_HERE)
 
 ---
+
+## Project Status
+
+**Project Completed**  
+**Research Paper Published in IEEE (WorldSUAS 2025)**   
+Repository serves as implementation reference for the published work  
+
+
 ## 📬 Contact  
 
 - 📧 **Email:** manasakb160@gmail.com  
