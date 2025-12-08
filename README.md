@@ -1,87 +1,110 @@
 # 📰 Hybrid Fake News Detection Using BERT and Speaker Credibility Ranking via PageRank
 
-This project proposes a hybrid AI framework for fake news detection, combining deep semantic modeling (BERT) with speaker credibility scoring using PageRank on a speaker-topic graph. Designed to improve classification accuracy by integrating both text content and metadata.
+A hybrid AI framework that enhances fake news detection by integrating **deep semantic modeling (BERT)** with **speaker credibility scoring** using **PageRank**.  
+This dual-feature approach significantly boosts classification accuracy by leveraging both textual content and metadata-driven credibility insights.
+
+---
+
+## ✨ Highlights
+
+- 🔍 **BERT-based semantic understanding** of political statements  
+- 🔗 **Speaker–Topic Graph** construction for credibility modeling  
+- ⭐ **PageRank scoring** to rank speaker reliability  
+- ⚡ **Feature fusion** (semantic + credibility + metadata)  
+- 🌲 **Random Forest classifier** achieving improved performance  
 
 ---
 
 ## 📌 Abstract
 
-While most fake news detection systems rely solely on text patterns, this project introduces a hybrid method that factors in **speaker credibility**.  
-- Uses **BERT embeddings** for news statements  
-- Computes **credibility scores** from historical truth labels  
-- Builds a **bipartite speaker-topic graph**  
-- Applies **PageRank** to assess speaker influence  
-- Fuses all features and classifies using a **Random Forest**  
+Traditional fake news detection systems heavily rely on textual cues, often ignoring the reliability of the speaker.  
+This project introduces a **hybrid detection pipeline** that combines:
+
+- **BERT embeddings** for deep semantic text representation  
+- **Credibility scores** derived from historical truthfulness labels  
+- **Bipartite speaker–topic graph modeling**  
+- **PageRank** for influence & credibility ranking  
+- **Random Forest classifier** for final prediction  
+
+This combination results in better robustness, generalization, and interpretability.
 
 ---
 
-## 🗂️ Project Structure  
+## 🗂️ Project Structure
 
-- `Fake_News_Detection_Using_BERT_And_PageRank.ipynb` — Full code and model implementation  
-- `DataSet/` — Contains `train.tsv`, `test.tsv`, `valid.tsv`  
-
+├── Fake_News_Detection_Using_BERT_And_PageRank.ipynb # Full workflow & model implementation
+└── DataSet/
+├── train.tsv
+├── test.tsv
+└── valid.tsv
 
 ---
 
-## 📊 Dataset  
+## 📊 Dataset
 
-- **Source:** [LIAR Fake News Dataset (Kaggle)](https://www.kaggle.com/datasets/csmalarkodi/liar-fake-news-dataset)  
-- Contains over **10,000 labeled political statements** with metadata  
-- Six fact-checking labels ranging from `pants-fire` to `true`  
+- **Dataset:** LIAR Fake News Dataset  
+- **Source:** https://www.kaggle.com/datasets/csmalarkodi/liar-fake-news-dataset  
+- Comprises **10,000+ political statements**  
+- Includes **6 fact-check labels**:  
+  `pants-fire`, `false`, `barely-true`, `half-true`, `mostly-true`, `true`  
+- Contains metadata such as speaker, party, context, topic, etc.
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Python 3.x  
-- Jupyter Notebook  
-- BERT (HuggingFace Transformers)  
-- NetworkX (for PageRank)  
-- Pandas, NumPy  
-- scikit-learn  
+- **Python 3.x**  
+- **Jupyter Notebook**  
+- **HuggingFace Transformers (BERT)**  
+- **NetworkX (PageRank implementation)**  
+- **scikit-learn**  
+- **NumPy & Pandas**
 
 ---
 
 ## 📈 Results
 
-| Model                      | Accuracy | F1-Score |
-|:---------------------------|:-----------|:------------|
-| Only Metadata               | 61%       | 0.59        |
-| Only BERT                   | 69%       | 0.67        |
-| **BERT + Metadata (Ours)** | **75%**   | **0.74**    |
+| Model                        | Accuracy | F1-Score |
+|------------------------------|----------|----------|
+| Metadata Only                | 61%      | 0.59     |
+| BERT Only                    | 69%      | 0.67     |
+| **Hybrid (BERT + Metadata)** | **75%**  | **0.74** |
 
-- ROC-AUC: 0.75  
-- F1-Score: 0.74  
-- PageRank improved credibility assessment and boosted classification accuracy  
-
-
+**Additional Metrics**  
+- ROC-AUC: **0.75**  
+- PageRank credibility features improved model stability and accuracy
 
 ---
 
-## Paper Publication
+## 🏅 Publication Details
 
 **Published in IEEE Xplore**  
-*Hybrid Fake News Detection Using BERT and Speaker Credibility Ranking via PageRank*  
-**Presented at:** World Skill Conference of Universal Data Analytics and Sciences (WorldSUAS 2025)  
+**Title:** *Hybrid Fake News Detection Using BERT and Speaker Credibility Ranking via PageRank*  
+**Conference:** World Skill Conference of Universal Data Analytics and Sciences (WorldSUAS 2025)  
 **Organized by:** Symbiosis University of Applied Sciences, Indore  
 **Paper ID:** 68  
 **Publisher:** IEEE  
-**Publication Year:** 2025  
+**Year:** 2025  
 
-[🔗 Read the Paper on IEEE Xplore](https://ieeexplore.ieee.org/document/YOUR_DOI_LINK_HERE)
+🔗 **Read on IEEE Xplore:** https://ieeexplore.ieee.org/document/YOUR_DOI_LINK_HERE  
+*(Replace with actual DOI link)*
 
 ---
 
-## Project Status
+## 📌 Project Status
 
-**Project Completed**  
-**Research Paper Published in IEEE (WorldSUAS 2025)**   
-Repository serves as implementation reference for the published work  
+- ✅ **Completed**  
+- 🧾 **Published in IEEE (WorldSUAS 2025)**  
+- 📚 Repository serves as the official implementation reference  
 
+---
 
-## 📬 Contact  
-
+## 📬 Contact
+- 📧 **Email:** hariiipriyaaa@gmail.com  
+- 💼 **LinkedIn:** https://www.linkedin.com/in/hari-priya-l-software/
 - 📧 **Email:** manasakb160@gmail.com  
-- 💼 **LinkedIn:** [manasa-k-08b7a9320](https://www.linkedin.com/in/manasa-k-08b7a9320/)
+- 💼 **LinkedIn:** https://www.linkedin.com/in/manasa-k-08b7a9320/
 
 ---
+
+## ⭐ If you found this project helpful, consider starring the repo!
