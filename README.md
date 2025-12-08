@@ -87,8 +87,7 @@ This combination results in better robustness, generalization, and interpretabil
 **Publisher:** IEEE  
 **Year:** 2025  
 
-🔗 **Read on IEEE Xplore:** https://ieeexplore.ieee.org/document/YOUR_DOI_LINK_HERE  
-*(Replace with actual DOI link)*
+🔗 **Read on IEEE Xplore:** https://ieeexplore.ieee.org/document/11199064
 
 ---
 
